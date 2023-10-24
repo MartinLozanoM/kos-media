@@ -1,4 +1,55 @@
 /* Navbar styles */
+body div .kos-nav {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position: fixed;
+  width: 100%;
+}
+
 nav ul li {
   cursor: pointer;
 }
+
+nav ul li:hover {
+  background-color: #eceff2;
+}
+
+.nav-items {
+  padding: 1rem;
+}
+
+.nav-items a .active {
+  border: 1px solid #61b6cf;
+}
+
+/* Presentation Styles */
+.presentation-container {
+  height: 100vh;
+  padding-top: 90px;
+  background-image: url(./assets/marketing-digital.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.presentation-text {
+  color: #f4f4f4;
+}
+
+.presentation-button {
+  background-color: #61b6cf;
+  font-weight: bold;
+  color: #f4f4f4;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.presentation-button:hover {
+  background-color: #add9e7;
+}
+
+/*? Medias Queries */

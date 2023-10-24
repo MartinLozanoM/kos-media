@@ -67,9 +67,11 @@ export const ContactForm = () => {
             className="text-center "
             style={{ marginTop: "10px", paddingTop: "10px" }}
           >
-            Slogan de Punto Colombres
+            Somos KOS Media
           </h2>
-          <p className="text-center pb-0 mb-0 ">"PENSAMOS EN UN LEGADO"</p>
+          <p className="text-center pb-0 mb-0 ">
+            "Te ayudamos a hacer crecer tu negocio"
+          </p>
           <Image
             src={Logo}
             className="pt-0 mt-0 pb-3"

@@ -6,7 +6,7 @@ import Logo from "../assets/kos-logo.jpeg";
 
 export const NavbarPagination = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary kos-nav">
       <Container>
         <Navbar.Brand href="#home">
           <img
@@ -18,9 +18,9 @@ export const NavbarPagination = () => {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <ul className="d-md-flex">
+        <Navbar.Collapse id="basic-navbar-nav" className="flex-md-grow-0">
+          <Nav>
+            <ul className="text-center p-0 d-lg-flex">
               <li className="nav-items">
                 <Link
                   activeClass="active"
@@ -30,7 +30,7 @@ export const NavbarPagination = () => {
                   offset={-75}
                   duration={100}
                 >
-                  Presentacion
+                  Nosotros
                 </Link>
               </li>
               <li className="nav-items">
@@ -54,7 +54,7 @@ export const NavbarPagination = () => {
                   offset={-75}
                   duration={100}
                 >
-                  Destacados
+                  Nuestros Clientes
                 </Link>
               </li>
               <li className="nav-items">
