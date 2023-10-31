@@ -43,8 +43,8 @@ export const ContactForm = () => {
               <input
                 type="text"
                 className="required"
-                name="studies"
-                placeholder="Estudios"
+                name="company"
+                placeholder="Empresa"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               <textarea
