@@ -78,6 +78,25 @@ nav ul li:hover {
   border: 1px solid black;
 }
 
+/* Footer */
+
+footer {
+  background-color: #132a39;
+  color: white;
+}
+
+.icon-link {
+  color: white;
+}
+
+.icon-link:hover,
+.contact-text ul li a:hover {
+  color: #add9e7;
+}
+
+.contact-text ul li a {
+  color: white;
+}
 /*? Medias Queries */
 
 @media (min-width: 768px) {
