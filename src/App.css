@@ -34,6 +34,7 @@ nav ul li:hover {
 
 .presentation-text {
   color: #f4f4f4;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .presentation-button {
@@ -52,4 +53,35 @@ nav ul li:hover {
   background-color: #add9e7;
 }
 
+/* Services Section */
+
+.services {
+  margin: 1rem 0px;
+  color: white;
+}
+
+.services:nth-child(1) {
+  background-color: #254354;
+}
+
+.services:nth-child(2) {
+  background-color: #275e77;
+}
+
+.services:nth-child(3) {
+  background-color: #2d8ead;
+}
+
+.services:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
 /*? Medias Queries */
+
+@media (min-width: 768px) {
+  .services {
+    margin: 1rem;
+  }
+}
