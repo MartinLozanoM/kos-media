@@ -3,9 +3,8 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 export const Footer = () => {
   return (
     <footer>
-      <div className="footer container-fluid p-4">
-        <div className="about-divisor container-fluid rounded mt-4 container"></div>
-        <div className="row text-white p-5 pb-4 text-center">
+      <div className="container-fluid p-4 text-center">
+        <div className="row">
           <div className="col-md-6">
             <h2 className="fw-bold">KOS Media</h2>
             <p className="fw-light">
@@ -15,7 +14,7 @@ export const Footer = () => {
               blanditiis consequatur perferendis eum tempore.
             </p>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 contact-text">
             <h2 className="">Contacto</h2>
             <ul className="ps-0">
               <li className="">
@@ -26,10 +25,10 @@ export const Footer = () => {
               <li className="">contacto@kosmedia.com.ar</li>
             </ul>
             <div className="mt-5 d-flex justify-content-center">
-              <a href="https://www.instagram.com" className="icon-link">
+              <a href="https://www.instagram.com" className="icon-link mx-3">
                 <FaInstagram size={36} />
               </a>
-              <a href="https://www.linkedin.com/" className="icon-link">
+              <a href="https://www.linkedin.com/" className="icon-link mx-3">
                 <FaLinkedin size={36} />
               </a>
             </div>
