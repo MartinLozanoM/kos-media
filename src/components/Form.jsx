@@ -6,13 +6,57 @@ export const ContactForm = () => {
     <section className="container-fluid" id="contact-section">
       <div className="row p-5 section-size">
         <div className="bg-white  col-md-8 col-sm-12  p-4">
-          <div className="container p-4">
-            <h2 className="fw-bolder-4 text-dark pb-2 text-start">
-              ¿Queres saber mas?
-            </h2>
+          <div className="container">
+            <h2 className="">Contactanos</h2>
             <form className="row my-4" name="contact" method="POST">
               <input type="hidden" name="form-name" value="contact" />
-              <input
+              <div className="row100">
+                <div className="column">
+                  <div className="inputBox">
+                    <input type="text" name="" required />
+                    <span className="text">Nombre</span>
+                    <span className="line"></span>
+                  </div>
+                </div>
+                <div className="column">
+                  <div className="inputBox">
+                    <input type="text" name="" required />
+                    <span className="text">Apellido</span>
+                    <span className="line"></span>
+                  </div>
+                </div>
+              </div>
+              <div className="row100">
+                <div className="column">
+                  <div className="inputBox">
+                    <input type="text" name="" required />
+                    <span className="text">Email</span>
+                    <span className="line"></span>
+                  </div>
+                </div>
+                <div className="column">
+                  <div className="inputBox">
+                    <input type="text" name="" required />
+                    <span className="text">Telefono</span>
+                    <span className="line"></span>
+                  </div>
+                </div>
+              </div>
+              <div className="row100">
+                <div className="column">
+                  <div className="inputBox textarea">
+                    <textarea required></textarea>
+                    <span className="text">Escribe tu mensaje aqui...</span>
+                    <span className="line"></span>
+                  </div>
+                </div>
+              </div>
+              <div className="row100">
+                <div className="column">
+                  <input type="submit" value="Enviar" />
+                </div>
+              </div>
+              {/* <input
                 type="text"
                 className="required"
                 name="name"
@@ -58,7 +102,7 @@ export const ContactForm = () => {
                 <button className="" type="submit">
                   Enviar
                 </button>
-              </div>
+              </div> */}
             </form>
           </div>
         </div>
