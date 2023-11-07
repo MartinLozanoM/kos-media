@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,6 +7,14 @@
     <title>Vite + React</title>
   </head>
   <body>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="Nombre" />
+      <input type="text" name="Apellido" />
+      <input type="email" name="Email" />
+      <input type="text" name="Telefono" />
+      <textarea name="Comentarios"></textarea>
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
