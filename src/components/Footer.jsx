@@ -14,7 +14,7 @@ export const Footer = () => {
               blanditiis consequatur perferendis eum tempore.
             </p>
           </div>
-          <div className="col-md-6 contact-text">
+          <div className="col-md-6 contact-text-footer">
             <h2 className="">Contacto</h2>
             <ul className="ps-0">
               <li className="">
