@@ -4,6 +4,7 @@ import { Presentation } from "./components/Presentation";
 import { Services } from "./components/Services";
 import { ContactForm } from "./components/Form";
 import { Footer } from "./components/Footer";
+import { AboutUs } from "./components/AboutsUs.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavbarPagination />
       <Presentation />
       <Services />
+      <AboutUs />
       <ContactForm />
       <Footer />
     </>
