@@ -8,7 +8,7 @@ export const NavbarPagination = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary kos-nav">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={Logo}
             width="100"
@@ -30,7 +30,7 @@ export const NavbarPagination = () => {
                   offset={-75}
                   duration={100}
                 >
-                  Nosotros
+                  Inicio
                 </Link>
               </li>
               <li className="nav-items">
@@ -48,13 +48,13 @@ export const NavbarPagination = () => {
               <li className="nav-items">
                 <Link
                   activeClass="active"
-                  to="featured-section"
+                  to="aboutus-section"
                   spy={true}
                   smooth={true}
                   offset={-75}
                   duration={100}
                 >
-                  Nuestros Clientes
+                  Nosotros
                 </Link>
               </li>
               <li className="nav-items">

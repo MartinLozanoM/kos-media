@@ -236,6 +236,14 @@ input[type="submit"]:hover {
   background-color: #add9e7;
 }
 
+/* Clients*/
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Footer */
 
 footer {

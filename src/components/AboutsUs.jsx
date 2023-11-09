@@ -26,7 +26,7 @@ export const AboutUs = () => {
   ];
 
   return (
-    <section className="container-fluid text-center">
+    <section className="container-fluid text-center" id="aboutus-section">
       <div>
         <h2 className="mb-4">Nuestro Equipo:</h2>
         <div className="row cards-container m-0 justify-content-center align-items-center">

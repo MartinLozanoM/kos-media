@@ -5,6 +5,7 @@ import { Services } from "./components/Services";
 import { ContactForm } from "./components/Form";
 import { Footer } from "./components/Footer";
 import { AboutUs } from "./components/AboutsUs.jsx";
+import { ClientsSection } from "./components/Clients.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <AboutUs />
       <ContactForm />
+      <ClientsSection />
       <Footer />
     </>
   );

@@ -10,11 +10,11 @@ export const Presentation = () => {
     >
       <div className="row p-2 ">
         <div className="col-md-6 mt-5 pt-5 col-sm d-flex flex-column justify-content-center align-items-center mb-5 ">
-          <div className="presentation-text">
+          <div className="presentation-text p-3">
             <h1 className="text-center">
               KOS <br /> Media
             </h1>
-            <p className="text-center">
+            <p className="text-center p-2">
               Somos KOS Media Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Repellat quidem, tempore incidunt ullam voluptate ab
               suscipit, illum asperiores itaque eveniet nam quam! Ea iusto ut
